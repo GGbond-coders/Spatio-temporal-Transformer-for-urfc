@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Experiment backups & checkpoints
+bak/
+checkpoints/
+submit/
+*.pth
+*.pth.tar
+
+# Dataset files
+data/
+*.csv
+
+# Exceptions to allow tracking competition sample csvs if desired, but here train/test data should stay local:
+!train.csv
+!test.csv
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
